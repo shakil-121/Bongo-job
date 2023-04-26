@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+.jobs_section h1,p{ 
+    text-align: center; 
+    font-family: 'Manrope', sans-serif;
+} 
+.job{ 
+    display: grid; 
+    grid-template-columns: repeat(2,1fr); 
+    margin: 80px 150px;  
+} 
+@media screen and  (max-width:570px){
+    .job{ 
+        display: block; 
+        margin: auto;
+    }
+} 
+.showAll button{ 
+    padding: 12px 25px; 
+    border-radius: 6px; 
+    border: none; 
+    background-color: #0051ff; 
+    color: #fff; 
+    
+} 
+
+.showAll button{ 
+    margin:80px auto; 
+    display: flex; 
+    
+}

@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+.catarogyHeader{ 
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+} 
+.card{  
+    margin: 70px 70px;
+    display: flex; 
+   justify-content: space-around; 
+   
+} 
+@media screen and (max-width:570px) {
+    .card{ 
+        display: block; 
+        
+    }
+}

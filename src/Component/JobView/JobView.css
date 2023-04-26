@@ -1,0 +1,47 @@
+.banner{ 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    height: 200px; 
+    background-color: #006eff; 
+    
+} 
+.banner h1{ 
+    color: #fff;
+} 
+
+.parent{ 
+    display: flex; 
+    margin: 50px 70px; 
+    justify-content: space-between; 
+    align-items: center;
+} 
+.job-description p{ 
+    text-align: start !important; 
+    margin-top: 20px;
+} 
+.job-details-card{ 
+    border:none; 
+    background-color: #00aeff1e; 
+    border-radius: 10px;
+    
+} 
+.job-details-card hr{ 
+    color: #c7c7c7; 
+    width: 90%; 
+   margin: auto;
+}
+.job-details-card p{ 
+    text-align: start; 
+    margin-top: 5px; 
+    color: #000000; 
+    padding: 10px;
+} 
+@media screen and (max-width:570px) {
+    .parent{ 
+        display: block; 
+    } 
+    .job-details-card{ 
+        margin-top: 50px;
+    }
+}

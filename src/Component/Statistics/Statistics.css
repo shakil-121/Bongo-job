@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+.graph{ 
+    margin: 30px 110px;
+    font-family: 'Varela Round', sans-serif; 
+
+} 
+@media screen and (max-width:570px) {
+    .Chart{ 
+        width: 400px; 
+        height: 200px; 
+        margin: 20px 5px;
+    }
+}

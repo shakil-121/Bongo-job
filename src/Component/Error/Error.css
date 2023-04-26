@@ -1,0 +1,13 @@
+.Error-btn{ 
+    padding: 10px 20px; 
+    background-color: #0051ff; 
+    margin: 10px auto; 
+    text-decoration: none; 
+    border: none; 
+    border-radius: 10px; 
+    display: flex; 
+    
+} 
+.Error-btn a{ 
+    color: #fff; 
+}

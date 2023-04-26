@@ -1,0 +1,15 @@
+.apply{ 
+    height: 200px; 
+    background-color: #0051ff; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+} 
+.apply h1{ 
+    color: #fff; 
+    
+} 
+.jobs{ 
+    width: 90%; 
+    margin: 70px 70px;
+}
